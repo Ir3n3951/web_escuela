@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Text files */
+.display1{
+    font-family: 'Nohemi-Semibold', sans-serif;
+    font-size: 4.5rem;
+    line-height: 5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.display2{
+    font-family: 'Nohemi-Semibold', sans-serif;
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+h1{
+    font-family: 'Nohemi-Medium', sans-serif;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+h2{
+    font-family: 'Nohemi-Medium', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+h2.light{
+    font-family: 'Nohemi-Light', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+h3{
+    font-family: 'Nohemi-Medium', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+}
+
+h3.light{
+    font-family: 'Nohemi-Light', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+}
+
+p{
+    font-family: 'NotoSans-Regular', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-bottom: 16px;
+}
+
+p.bold{
+    font-family: 'NotoSans-SemiBold', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-bottom: 16px;
+}
+
+p.little{
+    font-family: 'NotoSans-Regular', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding-bottom: 14px;
+}
+
+p.extralittle{
+    font-family: 'NotoSans-Regular', sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    padding-bottom: 12px;
+}
+
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar {
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: none;
+}
+::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 8px;
+}
